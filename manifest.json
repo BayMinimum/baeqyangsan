@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "KSA needs Web Standard!",
-  "version": "beta",
+  "version": "0.7.0",
   "description": "Makes date inputs editable on KSA outing page",
   "author": "BayMinimum",
   "content_scripts": [
