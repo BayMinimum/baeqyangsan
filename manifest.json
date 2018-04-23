@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "KSA needs Web Standard!",
+  "name": "__MSG_appName_,
   "version": "0.7.0",
-  "description": "Makes date inputs editable on KSA outing page",
+  "description": "__MSG_appDesc",
   "author": "BayMinimum",
   "content_scripts": [
     {
