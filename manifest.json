@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "KSA needs Web Standard!",
+  "version": "beta",
+  "description": "Makes date inputs editable on KSA outing page",
+  "author": "BayMinimum",
+  "content_scripts": [
+    {
+      "matches": ["http://students.ksa.hs.kr/*"],
+      "js": ["baeqyangsan.js"]
+    }
+  ]
+}
