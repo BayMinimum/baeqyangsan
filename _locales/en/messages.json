@@ -2,7 +2,7 @@
   "appName": {
     "message": "KSA needs web standard!"
   },
-  "appDesk": {
+  "appDesc": {
     "message": "Makes date field on KSA outing page editable"
   }
 }
