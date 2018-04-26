@@ -1,15 +1,15 @@
 function bys_main(){
-  var startInput = $('expect_start')
-  var endInput = $('expect_end')
-  function editable_and_remove_btn(input){
+  function clean(input){
     if(input){
-      input.removeAttr('readonly')
-      input.next().remove()
+      input.removeAttr('readonly onclick class style')
+      input.attr('type', 'date')
+      input.attr('min', input.attr('value'))
+      next = input.next()
+      if(next.is('img')) next.remove()
     }
   }
-  editable_and_remove_btn(startInput)
-  editable_and_remove_btn(endInput)
+  clean($('input[name="expect_start"]'))
+  clean($('input[name="expect_end"]'))
 }
 
-window.onEventListener('load', bys_main)
-window.frames[1].onEventListener('load', bys_main)
+bys_main()

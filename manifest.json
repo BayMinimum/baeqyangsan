@@ -1,13 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "__MSG_appName_",
-  "version": "0.7.0",
-  "description": "__MSG_appDesc",
+  "name": "__MSG_appName__",
+  "version": "0.7.1",
+  "description": "__MSG_appDesc__",
   "author": "BayMinimum",
-  "content_scripts": [
-    {
-      "matches": ["http://students.ksa.hs.kr/*"],
-      "js": ["baeqyangsan.js"]
-    }
-  ]
+  "default_locale": "ko",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [ "activeTab" ],
+  "browser_action": { }
 }
